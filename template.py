@@ -10,13 +10,13 @@ while True:
 list_of_files = [
     f"{project_name}/__init__.py",
     f"{project_name}/components/__init__.py",
-    f"{project_name}/config__init__.py",
-    f"{project_name}/constants__init__.py",
+    f"{project_name}/config/__init__.py",
+    f"{project_name}/constants/__init__.py",
     f"{project_name}/entity/__init__.py",
     f"{project_name}/exception/__init__.py",
     f"{project_name}/logger/__init__.py",
-    f"{project_name}/pipeline__init__.py",
-    f"{project_name}/utils/__init__.py"
+    f"{project_name}/pipeline/__init__.py",
+    f"{project_name}/utils/__init__.py",
     f"config/config.yaml",
     f"schema.yaml",
     f"main.py",
