@@ -26,3 +26,6 @@ TRANSFORM_TEST_DIR_KEY =  "test.csv"
 DATA_PREPROCESSED_DIR = "processor"
 DATA_TRANSFORMATION_PROCESSING_OBJ = "processor.pkl"
 
+
+MODEL_TRAINER_KEY = "model_trainer"
+MODEL_OBJECT = "model.pkl"
