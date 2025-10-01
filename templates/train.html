@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="card p-4 text-center">
+  <h3 class="mb-3">⚙️ Train the Model</h3>
+  <form method="POST">
+    <button type="submit" class="btn btn-primary">Start Training</button>
+  </form>
+
+  {% if message %}
+  <div class="alert alert-success mt-3">{{ message }}</div>
+  {% endif %}
+  
+  {% if error %}
+  <div class="alert alert-danger mt-3">{{ error }}</div>
+  {% endif %}
+</div>
+{% endblock %}
